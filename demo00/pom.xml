@@ -164,8 +164,8 @@
 			<artifactId>ojdbc8</artifactId>
 			<version>19.3.0.0</version>
 		</dependency>
-		
-		
+
+
 		<!-- mubatis setting -->
 		<!-- mybatis -->
 		<dependency>
@@ -179,6 +179,13 @@
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 			<version>2.0.6</version>
+		</dependency>
+
+		<!-- sql log -->
+		<dependency>
+			<groupId>org.bgee.log4jdbc-log4j2</groupId>
+			<artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
+			<version>1.16</version>
 		</dependency>
 	</dependencies>
 
