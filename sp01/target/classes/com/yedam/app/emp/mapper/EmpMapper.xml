@@ -37,23 +37,23 @@
 			FROM employees
 		</selectKey>
 		INSERT INTO employees
-		(
-		employee_id
-		,last_name
-		,email
-		,hire_date
-		,job_id
-		,salary
-		)
+			(
+			employee_id
+			,last_name
+			,email
+			,hire_date
+			,job_id
+			,salary
+			)
 		VALUES
-		(
-		#{employeeId}
-		,#{lastName}
-		,#{email}
-		,#{hireDate}
-		,#{jobId}
-		,#{salary}
-		)
+			(
+			#{employeeId}
+			,#{lastName}
+			,#{email}
+			,#{hireDate}
+			,#{jobId}
+			,#{salary}
+			)
 	</insert>
 
 	<!-- 수정 : 현재 형태는 반드시 수정 여부와 상관없이 전체 데이터가 전송 -->

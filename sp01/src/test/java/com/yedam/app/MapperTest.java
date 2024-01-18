@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.yedam.app.board.mapper.BoardMapper;
 import com.yedam.app.emp.mapper.EmpMapper;
 import com.yedam.app.emp.service.EmpVO;
 
@@ -80,5 +81,7 @@ public class MapperTest {
 		int result = empMapper.deleteEmpInfo(1001);
 		assertNotEquals(result, 0);
 	}
+	
+	
 	
 }
