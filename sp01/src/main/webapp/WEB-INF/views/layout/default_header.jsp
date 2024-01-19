@@ -15,7 +15,8 @@
           <li><a href="${pageContext.request.contextPath}" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="${pageContext.request.contextPath}/empList" class="nav-link px-2 text-white">전체사원 조회</a></li>
           <li><a href="${pageContext.request.contextPath}/empInsert" class="nav-link px-2 text-white">사원정보 등록</a></li>
-          
+          <li><a href="${pageContext.request.contextPath}/boardList" class="nav-link px-2 text-white">게시글 목록</a></li>
+          <li><a href="${pageContext.request.contextPath}/boardInsert" class="nav-link px-2 text-white">게시글 등록</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">

@@ -51,7 +51,9 @@ public class BoardController {
 
 	// 수정 폼
 	@GetMapping("boardUpdate")
-	public String updateBoardInfoForm() {
+	public String updateBoardInfoForm(BoardVO boardVO, Model model) {
+		BoardVO findVO = boardService.getBoardInfo(boardVO);
+		model.addAttribute("boardInfo", findVO);
 		return "board/boardUpdate";
 	}
 

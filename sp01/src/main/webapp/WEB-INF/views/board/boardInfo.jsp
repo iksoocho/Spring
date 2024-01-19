@@ -42,7 +42,8 @@
 
 		<div>
 			<button type="button" onclick="location.href='boardList'">목록으로</button>
-			<button type="submit">등록</button>
+			<button type="button" onclick="location.href='boardUpdate?bno=${boardInfo.bno }'">수정</button>
+			<button type="button" onclick="location.href='boardDelete?bno=${boardInfo.bno }'">삭제</button>
 		</div>
 	</form>
 </div>
